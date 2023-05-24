@@ -4,7 +4,7 @@ import BannerImage from "../Assets/home-banner-image.png";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 
-const Home = () => {
+const Hero = () => {
   return (
     <div className="home-container">
       <Navbar />
@@ -32,4 +32,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;
